@@ -1,10 +1,20 @@
 import styled from 'styled-components'
-
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`
+import { Navbar } from '../components/Navbar'
+import { Carousel } from '../components/Carousel'
+import { Hero } from '../components/Hero'
+import { SearchContainer } from '../components/SearchContainer'
+import { Properties } from '../components/Properties'
+import { QuotationBox } from '../components/QuotationBox'
 
 export default function Home() {
-  return <Title>My page</Title>
+  return (
+    <>
+      <Navbar />
+      <Carousel />
+      <Hero />
+      <SearchContainer />
+      <Properties />
+      <QuotationBox />
+    </>
+  )
 }
