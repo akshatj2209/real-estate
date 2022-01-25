@@ -36,7 +36,7 @@ export const Navbar = () => (
       <LinksList>
         <LinksListItems>
           <Logo src="./logo.svg" alt="logo" />
-          <Name>sid</Name>
+          <Name>Realism Estate</Name>
         </LinksListItems>
         <Box ml="auto" display="flex">
           <LinksListItems>
